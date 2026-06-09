@@ -14,15 +14,16 @@ import type { DatabaseReference } from 'firebase/database';
 import type { LocationData, LocationUpdate } from '@/types/location';
 
 // ── Firebase Configuration ──
-// ⚠️ Ganti dengan konfigurasi Firebase milikmu (lihat README.md)
+// Sesudah (contoh):
 const firebaseConfig = {
-  apiKey: "__FIREBASE_API_KEY__",
-  authDomain: "__FIREBASE_AUTH_DOMAIN__",
-  databaseURL: "__FIREBASE_DATABASE_URL__",
-  projectId: "__FIREBASE_PROJECT_ID__",
-  storageBucket: "__FIREBASE_STORAGE_BUCKET__",
-  messagingSenderId: "__FIREBASE_MESSAGING_SENDER_ID__",
-  appId: "__FIREBASE_APP_ID__",
+  apiKey: "AIzaSyBNsGqRWlCJ7ts6tgdaENBhjrkKnjGS1tg",
+  authDomain: "geoguessr-tracker-f0b19.firebaseapp.com",
+  databaseURL: "https://geoguessr-tracker-f0b19-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "geoguessr-tracker-f0b19",
+  storageBucket: "geoguessr-tracker-f0b19.firebasestorage.app",
+  messagingSenderId: "107675796903",
+  appId: "1:107675796903:web:19d0f687077c6389fca282",
+  measurementId: "G-JFJ4RSSX8W"
 };
 
 let app: ReturnType<typeof initializeApp> | null = null;
